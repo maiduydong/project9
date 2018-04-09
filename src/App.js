@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Word} from './components/Word';
+import {Box} from './components/Box.js';
 
 import './App.css';
 
@@ -14,7 +15,8 @@ export class App extends Component {
   ];
     return (
       <div>
-        {arr.map (w => <Word wordInfo ={w}/>)}
+        {/* {arr.map (w => <Word wordInfo ={w}/>)} */}
+        <Box/>
         
       </div>
     );
